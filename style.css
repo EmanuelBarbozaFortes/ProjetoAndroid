@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('truetype');
+}
+
+/*  #ebe5c5
+    #83e1ad
+    #3ddc84
+    #2fa866
+    #1a5c37
+    #063d1e */
+/* #063D1E COR VERDE ESCUDO */
+/* #2B9E5F COR VERDE CLARO */
+/* font-family: 'Barlow Condensed', sans-serif; */
+/* font-family: 'Android'; */
+
+body {
+    background-color: #ebe5c5;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+body strong{
+    color: #063D1E;
+
+}
+
+
+.inicio{
+    padding: 60px 20px 0px 15px;
+    background:linear-gradient(to bottom ,#2B9E5F,#063D1E);
+
+}
+.inicio nav ul{
+    font-size: 16px;
+    font-weight: bold;
+    font-family:  sans-serif; 
+    color: aliceblue;
+    display: flex;
+    gap: 10px;
+    /* margin-top:20px ; */
+}
+.inicio nav ul li{
+    background-color: transparent;
+    padding: 10px;  
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.inicio nav ul li:hover{
+    color: #063D1E;
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* width: auto 0; */
+
+}
+.inicio .titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.364);
+}
+.titulo p{
+    font-size: 17px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.201);
+}
+.background{
+    min-width: 300px;
+    max-width: 950px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.infor-1{
+    background-color: aliceblue;
+    max-width: 945px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 40px;
+}
+.infor-1 h2{
+    color: #063D1E;
+    font-size: 22px;
+    font-family: 'Android';
+    background: linear-gradient(to right,#2fa866,transparent) ;
+    border-radius: 5px;
+    padding: 6px 0 6px 15px;
+    margin-bottom: 20px;
+}
+.infor-1 h3{
+    color: #063D1E;
+    font-size: 16px;
+    font-family: 'Android';
+    background: linear-gradient(to right,#2fa866,transparent) ;
+    border-radius: 5px;
+    /* padding: 6px 0 6px 15px; */
+    padding: 2px;
+    margin-bottom: 20px;
+    text-indent: 8px;
+}
+.infor-1 p{
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.infor-1 img{
+    width: 100%;   
+}
+.infor-1 .img-3{
+   display: block;
+   margin: auto;
+   max-width: 300px;  
+}
+.video{
+    background-color:#063D1E;
+    margin: 0px -15px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56%;
+    margin-bottom: 40px
+}
+.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.card-extra{
+    background-color: #83e1ad;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card-extra h4{
+    color: aliceblue;
+    font-size: 19px;
+    background-color: #1a5c37;
+    border-radius: 10px 10px 0px 0;
+    padding: 10px;
+    margin: -10px;
+    margin-bottom: 20px;
+}
+.card-extra ul{
+    list-style: none;
+    list-style-position: inside;
+    columns: 2;
+    margin-bottom: 20px;
+}
+.card-extra abbr{
+    text-decoration: underline;
+}
+.links a{
+    padding: 2px 6px;
+    background-color: #83e1ad;
+
+}
+.links a::after{
+    content: '\1f517';
+}
+footer{
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.8em;
+    padding: 15px;
+    width: 100%;
+}
+footer h3 a{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
